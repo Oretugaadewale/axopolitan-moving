@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get A Quote</title>
+
+    <!-- bootstrap cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      /*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      /*
+      MAIN COLOR: #51cf66
+      GREY COLOR: #343a40
+      */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        color: #343a40;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+      }
+      .background-image {
+        background-image: url("../img/truck (1).jpg");
+        /* background-repeat: no-repeat; */
+        width: 100%;
+        height: 43.3rem;
+        background-repeat: none;
+        background-size: cover;
+      }
+      .phone {
+        color: #fff;
+        text-decoration: none;
+        padding: 1rem;
+      }
+       
+      .header{
+        padding: 1rem;
+      }
+
+      .quotation {
+        text-align: center;
+      }
+
+      .heading-title,
+      .content {
+        text-align: center;
+        color: #343a40;
+      }
+      .moving-from,
+      .moving-to {
+        padding: 1rem;
+        margin: 1rem;
+        width: 40%;
+      }
+
+      .quote-box {
+        background-color: #fff;
+        width: 50%;
+        margin-left: 22rem;
+      }
+
+      .pagination {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 100px;
+        margin-left: 16rem;
+        padding: 1rem;
+      }
+
+      .btn {
+        border: 1px solid #51cf66;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        background: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: #51cf66;
+      }
+
+      .btn:hover .btn-icon {
+        stroke: #fff;
+      }
+
+      .btn-icon {
+        height: 24px;
+        width: 24px;
+        stroke: ##51cf66;
+      }
+
+      .page-link:link,
+      .page-link:visited {
+        font-size: 18px;
+        color: #343a40;
+        text-decoration: none;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .page-link:hover,
+      .page-link:active,
+      .page-link.page-link--current {
+        background-color: #51cf66;
+        color: #fff;
+      }
+
+      .dots {
+        color: #868e96;
+      }
+      .btn--fullgt{
+        margin: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 3rem;
+      }
+
+      .btn-gt{
+       padding-left: 25rem;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="background-image">
+      <div class="header">
+        <!-- <a href="#">
+          <img class="logo" src="#" alt="logo" />
+        </a> -->
+       
+        <a class="phone" href="tel:+2348132578251">+2348132578261</a>
+
+        <nav class="main-nav">
+          <ion-icon class="search" name="search-outline"></ion-icon>
+          <a href=""><ion-icon class="menu" name="menu-outline"></ion-icon></a>
+        </nav>
+      </div>
+
+      <div class="quote-box">
+        <div class="pagination">
+          <!-- <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button> -->
+          <a href="#" class="page-link">1</a>
+          <a href="#" class="page-link">2</a>
+          <a href="#" class="page-link">3</a>
+          <a href="#" class="page-link">4</a>
+          <!-- <a href="#" class="page-link">5</a>
+        <a href="#" class="page-link">6</a> -->
+          <!-- <span class="dots">...</span> -->
+          <!-- <a href="#" class="page-link">23</a> -->
+          <!-- <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="btn-icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 5l7 7-7 7"
+              />
+            </svg>
+          </button> -->
+        </div>
+
+        <div class="image" role="img" aria-label="boximage"></div>
+        <h2 class="heading-title">Where are you moving</h2>
+        <p class="content">We just need a few detail to get you a free quote</p>
+        <hr />
+        <div class="quotation">
+          <div>
+            <!-- <label class="form-address" for="address">Enter address</label> -->
+            <input
+              class="moving-from"
+              type="text"
+              placeholder="Moving From"
+              name="Address"
+            />
+          </div>
+
+          <div>
+            <!-- <label class="form" for="address">Enter destination</label> -->
+            <input
+              class="moving-to"
+              type="text"
+              placeholder="Moving To"
+              name="Address"
+            />
+          </div>
+          <hr />
+
+          <div class="btn-gt">
+            <div class="btn-getquote">
+              <a href="quote.html" type="button" class="btn btn--fullgt">
+                Next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

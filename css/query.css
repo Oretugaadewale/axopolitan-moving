@@ -1,0 +1,6 @@
+/* converting 1350 to em  1350/16 = 84 */
+@media (max-width: 84rem) {
+  .heading-title {
+    font-size: 1rem;
+  }
+}

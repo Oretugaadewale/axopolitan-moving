@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.main-nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.phone-no {
+  padding-right: 60rem;
+  margin-top: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  margin-top: 2rem;
+}
+
+.search,
+.menu {
+  color: #fff;
+}
+
+.bk-img {
+  background-image: url("../img/truck (1).jpg");
+  /* background-repeat: no-repeat; */
+  height: 45rem;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.heading-title {
+  color: #fff;
+  text-align: center;
+  margin-right: 75rem;
+  padding-top: 13rem;
+  padding-left: 2rem;
+  /* bottom: 10px; */
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  margin-right: 72rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.quotation-box {
+  display: flex;
+  background-color: #fff;
+  margin: 2rem;
+  padding: 1rem;
+  gap: 2rem;
+  width: 50%;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #51cf66;
+  /* color: #fff; */
+
+  text-decoration: none;
+  /* font-size: 1rem; */
+  /* font-weight: 600; */
+  /* padding: 1rem 2rem; */
+  border-radius: 9px;
+  /* margin-right: 4rem; */
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #51cf66;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #3aad4e;
+  background-color: #b2f2bb;
+}
+
+.btndiv {
+  margin-right: 2rem;
+}
+
+input {
+  border: none;
+}
+
+.estimate {
+  margin-right: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.our-services {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.axopolitant-section {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #555;
+  padding-bottom: 3rem;
+  /* gap: 2rem; */
+}
+
+.axo-heading,
+.axopolitant-icon {
+  color: #3aad4e;
+}
+
+.axo-heading,
+.axo-content {
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.03);
+  border: 1px solid #dee2e6;
+  transition: all 0.4s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.527);
+  transform: scale(1.1);
+  background-color: #fff;
+  background-color: #b2f2bb;
+}
+
+.axopolitant-icon {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.icon-benefits {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4rem;
+  padding: 1rem;
+  border-bottom: 1px solid #555;
+}
+
+.benefit-header,
+.benefit-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.benefit-header {
+  color: #3aad4e;
+}
+
+.benefit-content {
+  padding-bottom: -2rem;
+}
+
+.benefits {
+  border-bottom: 1px solid #555;
+}
+
+.experience {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  justify-content: space-around;
+  margin: 1.5rem;
+}
+
+.image-box {
+  height: 30rem;
+  width: 35rem;
+}
+
+.list {
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.create-header {
+  color: #3aad4e;
+}
+
+.footer-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 4.5rem;
+}
+
+.footer {
+  background-color: #3aad4e;
+  padding: 1rem;
+  color: #fff;
+}
+
+.follow-us,
+.social-icon {
+  margin-left: 1rem;
+}
+
+.our-address {
+  display: flex;
+  gap: 3rem;
+}
+
+.quick-header,
+.help-header {
+  padding-left: 2rem;
+}
+
+.quick-list {
+  list-style: none;
+}
